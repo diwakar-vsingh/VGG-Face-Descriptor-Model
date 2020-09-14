@@ -26,7 +26,8 @@ The whole dataset (aligned and valid) is split into two parts: training (85%) an
 Loss function: Binary Cross-Entropy 
 Metric: Binary Accuracy
 
-When _GPU = False, I get around 96.75% accuracy on the validation set. [EPOCH = 1, No added layer on top of VGG]
+When _GPU = False, I get around 96.75% accuracy on the validation set. [EPOCH = 1, No added layer on top of VGG] 
+
 When _GPU = True, I get accuracy between 97% - 98% on validation set. [EPOCH = 3, 2 dense layer added on top of VGG]
 
 If I would have been allowed to use GPU, I could even unfreeze some of the top layers of the base model and fine-tune the model further to reach an accuracy of around 99%.
